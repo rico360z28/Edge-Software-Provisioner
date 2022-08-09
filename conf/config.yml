@@ -58,7 +58,7 @@
 # are empty. Otherwise, this application will not be configured properly.
 profiles:
 
-  - git_remote_url: https://github.com/intel/rni-profile-base-clearlinux.git
+  - git_remote_url: https://github.com/rico360z28/rni-profile-base-clearlinux.git
     profile_branch: slim
     profile_base_branch: master
     git_username: ""
@@ -67,7 +67,7 @@ profiles:
     name: Clear_Linux
     custom_git_arguments: --depth=1
 
-  - git_remote_url: https://github.com/intel/rni-profile-base-clearlinux.git
+  - git_remote_url: https://github.com/rico360z28/rni-profile-base-clearlinux.git
     profile_branch: desktop
     profile_base_branch: master
     git_username: ""
@@ -76,7 +76,7 @@ profiles:
     name: Clear_Linux_Desktop
     custom_git_arguments: --depth=1
 
-  - git_remote_url: https://github.com/intel/rni-profile-base-ubuntu.git
+  - git_remote_url: https://github.com/rico360z28/rni-profile-base-ubuntu.git
     profile_branch: slim
     profile_base_branch: master
     git_username: ""
@@ -85,7 +85,7 @@ profiles:
     name: Ubuntu_20.04
     custom_git_arguments: --depth=1
 
-  - git_remote_url: https://github.com/intel/rni-profile-base-ubuntu.git
+  - git_remote_url: https://github.com/rico360z28/rni-profile-base-ubuntu.git
     profile_branch: desktop
     profile_base_branch: master
     git_username: ""
