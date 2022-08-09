@@ -93,3 +93,30 @@ profiles:
     # This is the name that will be shown on the PXE menu (NOTE: No Spaces)
     name: Ubuntu_20.04_Desktop
     custom_git_arguments: --depth=1
+
+  - git_remote_url: https://github.com/rico360z28/rni-profile-base-ubuntu.git
+    profile_branch: jammy
+    profile_base_branch: master
+    git_username: ""
+    git_token: ""
+    # This is the name that will be shown on the PXE menu (NOTE: No Spaces)
+    name: Ubuntu_22.04_Desktop
+    custom_git_arguments: --depth=1
+
+- git_remote_url: https://github.com/rico360z28/rni-profile-base-ubuntu.git
+    profile_branch: 2204slim
+    profile_base_branch: master
+    git_username: ""
+    git_token: ""
+    # This is the name that will be shown on the PXE menu (NOTE: No Spaces)
+    name: Ubuntu_22.04
+    custom_git_arguments: --depth=1
+
+  - git_remote_url: https://github.com/rico360z28/rni-profile-base-windows.git
+    profile_branch: main
+    profile_base_branch: main
+    git_username: ""
+    git_token: ""
+    # This is the name that will be shown on the PXE menu (NOTE: No Spaces)
+    name: Win10PXE
+    custom_git_arguments: --depth=1
