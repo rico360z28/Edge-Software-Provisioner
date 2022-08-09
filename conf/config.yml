@@ -103,7 +103,7 @@ profiles:
     name: Ubuntu_22.04_Desktop
     custom_git_arguments: --depth=1
 
-- git_remote_url: https://github.com/rico360z28/rni-profile-base-ubuntu.git
+  - git_remote_url: https://github.com/rico360z28/rni-profile-base-ubuntu.git
     profile_branch: 2204slim
     profile_base_branch: master
     git_username: ""
