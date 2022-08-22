@@ -122,7 +122,7 @@ Target Devices will be connected on the same LAN as the Edge Software Provisione
   3. Clone this project to /opt/esp
   ```bash
   cd /opt
-  git clone -b master --depth=1 https://github.com/intel/Edge-Software-Provisioner.git esp
+  git clone -b master --depth=1 https://github.com/rico360z28/Edge-Software-Provisioner.git esp
   cd esp
   ```
 
